@@ -1,0 +1,15 @@
+<h2>Upcoming Meetups</h2>
+
+<div *ngFor="let meetup of meetups | async" class="panel panel-default">
+<div *ngIf ="meetup">
+  <div class="panel-body">
+      <h3 (click) = "goToDetailPage(meetup)"><em>{{meetup.title}} <em> By </em> {{meetup.author}}</em></h3><br/>
+      <!-- <h3>Description: {{meetup.description}}</h3><br/> -->
+
+      <!-- <div *ngIf="currentRoute === '/admin'">
+        <hr>
+        <app-edit-meetup [selectedMeetup]="meetup"></app-edit-meetup>
+      </div> -->
+    </div>
+  </div>
+</div>

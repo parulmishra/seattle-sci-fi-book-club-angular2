@@ -1,0 +1,74 @@
+{
+  "members" : [{
+  "firstName": "Parul",
+   "lastName" : "Mishra Dubedy",
+   "email" : "parul.mishra78@gmail.com",
+   "address": "Bellevue, WA",
+   "description": "I am a student at epicodus and i like reading fictional books",
+   "id":"1"},
+   {
+     "firstName": "Nikki",
+      "lastName" : "Gupta",
+      "email" : "nikki_g@gmail.com",
+      "address": "Redmond, WA",
+      "description": "I am a housewife  and i like reading fictional books",
+      "id":"2"},
+    {
+    "firstName": "Rahul",
+     "lastName" : "Bansal",
+     "email" : "rbansal@gmail.com",
+     "address": "Sammamish, WA",
+     "description": "I am a Developer at Google and i like reading fictional books",
+     "id":"3"},
+   {
+   "firstName": "Meena",
+    "lastName" : "Bansal",
+    "email" : "meenabansal@gmail.com",
+    "address": "Sammamish, WA",
+    "description": "I am a Developer at Microsoft and i like reading fictional books",
+    "id":"4"},
+  {
+  "firstName": "Rennie",
+   "lastName" : "Sen",
+   "email" : "rennei@gmail.com",
+   "address": "Mercer Island, WA",
+   "description": "I am a Developer at Amazon and i like reading fictional books",
+   "id":"5"}
+ ],
+   "meetups" : [{
+  "title": "The Quantum Thief",
+   "author" : "Hannu Rajaniemi Jean le Flambeur",
+   "description" : "It is a post-human criminal, mind burglar, confidence artist, and trickster.",
+   "location": "Bellevue Library, WA",
+   "date":"09/09/2017",
+   "id":"1"},
+   {
+     "title": "Kushiel's Dart",
+      "author" : "Jacqueline Carey",
+      "description" : "A nation born of angels, vast and intricate and surrounded by danger... a woman born to servitude, unknowingly given access to the secrets of the realm....",
+      "location": "Bellevue Library, WA",
+      "date": "09/18/2017",
+      "id":"2"},
+    {
+      "title": "The Three-Body Problem ",
+       "author" : "Cixin Liu",
+       "description" : "Set against the backdrop of China's Cultural Revolution, a secret military project sends signals into space to establish contact with aliens.",
+       "location": "Redmond Library, WA",
+       "date": "09/21/2017",
+       "id":"3"},
+   {
+     "title": "Gardens of the Moon",
+      "author" : "Steven Erikson ",
+      "description" : "The Malazan Empire simmers with discontent, bled dry by interminable warfare, bitter infighting and bloody confrontations with the formidable Anomander Rake and his Tiste Andii, ancient and implacable sorcerers.",
+      "location": "Redmond Library, WA",
+      "date": "09/27/2017",
+      "id":"4"},
+  {
+    "title": "The Day of the Triffids",
+     "author" : "John Wyndham",
+     "description" : "The Times wrote of John Wyndham's terrifying post-apocalyptic thriller The Day of the Triffids that it had, 'All the reality of a vividly realized nightmare.'",
+     "location": "Bellevue Library, WA",
+     "date": "10/21/2017",
+     "id":"5"}
+ ]
+}

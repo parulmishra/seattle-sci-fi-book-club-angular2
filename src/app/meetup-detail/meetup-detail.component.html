@@ -1,0 +1,8 @@
+<div *ngIf="meetupToDisplay | async">
+  <div class="well">
+    <h3>Event for the Book : {{(meetupToDisplay | async).title}}</h3>
+    <h3><em> By </em> {{(meetupToDisplay | async).author}}</h3><br/>
+    <h3>Description: {{(meetupToDisplay | async).description}}</h3><br/>
+    <h3>Location: {{(meetupToDisplay | async).location}}</h3><br/>
+    <h3>Date : {{(meetupToDisplay | async).date}}</h3>
+  </div>
