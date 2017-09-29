@@ -1,0 +1,24 @@
+<h4>Edit Album</h4>
+
+<label>Firsrt Name</label>
+<input [(ngModel)]="selectedMember.firstName">
+<br>
+
+<label>Last Name</label>
+<input [(ngModel)]="selectedMember.lastName">
+<br>
+
+<label>Email</label>
+<input [(ngModel)]="selectedMember.email">
+<br>
+
+<label>Address</label>
+<input [(ngModel)]="selectedMember.address">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedMember.description">
+
+<button (click)="beginUpdatingMember(selectedMember)">Update</button>
+<hr>
+<button (click)="beginDeletingMember(selectedMember)">Delete</button>

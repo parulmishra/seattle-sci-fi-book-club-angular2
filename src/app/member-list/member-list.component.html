@@ -7,11 +7,10 @@
       <h3>Description: {{member.description}}</h3><br/>
 
 
-      <!-- <div *ngIf="currentRoute === '/admin'"> -->
-        <!-- {{album.description}}
+      <div *ngIf="currentRoute === '/admin'">
         <hr>
-        <app-edit-album [selectedAlbum]="album"></app-edit-album>
-      </div> -->
+        <app-edit-member [selectedMember]="member"></app-edit-member>
+      </div>
     </div>
   </div>
 </div>

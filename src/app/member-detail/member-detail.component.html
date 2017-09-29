@@ -1,7 +1,6 @@
 <div *ngIf="memberToDisplay | async">
-  <h3>FirstName: {{(memberToDisplay | async).firstName}}</h3>
+  <h3>First Name: {{(memberToDisplay | async).firstName}}</h3>
   <h3>Last Name: {{(memberToDisplay | async).lastName}}</h3><br/>
   <h3>Email: {{(memberToDisplay | async).email}}</h3><br/>
   <h3>Address: {{(memberToDisplay | async).address}}</h3><br/>
   <h3>Description: {{(memberToDisplay | async).description}}</h3><br/>
-  
