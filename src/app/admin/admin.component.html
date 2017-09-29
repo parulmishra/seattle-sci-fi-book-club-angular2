@@ -1,42 +1,76 @@
 <div class="panel panel-default">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="panel-heading">
+        <h3 class="panel-title">Add New Member</h3>
+      </div>
+
+      <div class="panel-body">
+          <div>
+            <label>First Name</label><br>
+            <input #newFirstName>
+          </div>
+          <div>
+            <label>Last Name</label><br>
+            <input #newLastName>
+          </div>
+          <div>
+            <label>Email</label><br>
+            <input #newEmail>
+          </div>
+          <div>
+            <label>Address</label><br>
+            <input #newAddress>
+          </div>
+          <div>
+            <label>Description:</label><br>
+            <textarea #newDescription></textarea>
+          </div>
+          <button (click)="submitForm(newFirstName.value, newLastName.value, newEmail.value, newAddress.value, newDescription.value); newFirstName.value=''; newLastName.value=''; newEmail.value=''; newAddress.value=''; newDescription.value=''">Add</button>
+      </div>
+
+  </div>
+
+<div class="col-md-6">
   <div class="panel-heading">
-    <h3 class="panel-title">Add New Member</h3>
+    <h3 class="panel-title">Add New Meetup</h3>
   </div>
   <div class="panel-body">
-    <div>
       <div>
-        <label>First Name</label>
+        <label>Title</label>
         <br>
-        <input #newFirstName>
+        <input #newTitle>
       </div>
-
       <div>
-        <label>Last Name</label>
+        <label>Author</label>
         <br>
-        <input #newLastName>
+        <input #newAuthor>
       </div>
-
       <div>
-        <label>Email</label>
+        <label>Description</label>
         <br>
-        <input #newEmail>
+        <input #newDescription>
       </div>
-
       <div>
-        <label>Address</label>
+        <label>Location</label>
         <br>
-        <input #newAddress>
+        <input #newLocation>
       </div>
-
       <div>
-        <label>Description:</label>
+        <label>Date</label>
         <br>
-        <textarea #newDescription></textarea>
+        <input type="date" #newDate>
       </div>
-      <button (click)="submitForm(newFirstName.value, newLastName.value, newEmail.value, newAddress.value, newDescription.value); newFirstName.value=''; newLastName.value=''; newEmail.value=''; newAddress.value=''; newDescription.value=''">Add</button>
+      <button (click)="submitMeetup(newTitle.value, newAuthor.value, newDescription.value, newLocation.value, newDate.value); newTitle.value=''; newAuthor.value=''; newDescription.value=''; newLocation.value=''; newDate.value=''">Add Meetup</button>
+    </div>
     </div>
   </div>
 </div>
-<div>
-  <app-member-list></app-member-list>
+<div class="row">
+  <div class="col-md-6">
+    <app-member-list></app-member-list>
+  </div>
+  <div class="col-md-6">
+    <app-upcoming-meetups></app-upcoming-meetups>
+  </div>
 </div>
